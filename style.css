@@ -1,0 +1,117 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  color: white;
+}
+
+/* landing page */
+
+.main-ctr {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.261),rgba(0, 0, 0, 0.447)),
+    url("./images/netflix-background-gs7hjuwvv2g0e9fj.jpg") center/cover no-repeat fixed;
+   
+}
+
+/* header */
+
+.header {
+  min-width: 100%;
+  min-height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10rem;
+
+}
+
+.logo{
+  max-width: 15rem;
+  height: 5rem;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+
+.login{
+  width:10rem ;
+  height:3rem;
+  background-color: red;
+  border-radius: 0.5rem;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+}
+.login a{
+  text-decoration: none;
+  font-size:1.6rem;
+  color: white;
+}
+
+/* main content */
+
+.content{
+  min-width: 100vw;
+  height:85vh;
+ align-content: center;
+ text-align: center;
+ padding: 0% 25%;
+}
+
+.heading h1{
+   font-size: 6rem;
+   font-weight: 900;
+   margin-bottom: 1rem;
+   line-height: 120%;
+   letter-spacing: 0.2rem;
+}
+.heading p{
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.startsCont h3{
+  margin: 2rem 0rem 1rem 0rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+
+.email-ctr{
+display: flex;
+justify-content: space-between;
+}
+
+.email-ctr input{
+    border:0.2rem solid rgba(252, 251, 251, 0.364);
+    background-color:rgba(0, 0, 0, 0.646);
+    width:69%;
+    height:5rem ;
+    border-radius: 0.5rem;
+    color: rgba(0, 0, 0, 0.777);
+    font-size: 2rem;
+    align-content: center;
+    padding-left:1.5rem ;
+}
+
+
+.email-ctr button{
+  width: 30%;
+  height: 5rem;
+  background-color: red;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 2rem;
+}
+
+
+/* ///////  Media Query for landing page  /////////*/
