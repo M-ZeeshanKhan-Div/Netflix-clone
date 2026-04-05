@@ -135,6 +135,11 @@ input {
   background-color: rgb(150, 3, 3);
 }
 
+.color-s{
+  width: 100%;
+  min-height: 5rem;
+}
+
 /* ///////////   Movies Section  ///////////// */
 
 .lower-ctr {
@@ -160,7 +165,7 @@ input {
 }
 
 .card-m {
-  flex: 0 0 60%;
+  flex: 0 0 15rem;
   width: 60%;
   height: 100%;
   border-radius: 0.5rem;
@@ -201,9 +206,21 @@ input {
   bottom: 1.5rem;
 }
 
+.downl-card img {
+  width: 6rem;
+}
+
+.tele-card img {
+  width: 8rem;
+}
+
+.smile-card img {
+  width: 9rem;
+}
+
 /* //////// question cards section //////// */
 
-.question{
+.question {
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
@@ -211,25 +228,84 @@ input {
   padding: 1.5rem;
   background-color: rgb(53, 53, 53);
 }
-.question h3{
+
+.question h3 {
   font-size: 2rem;
   font-weight: 400;
 }
-.question i{
+
+.question i {
   font-size: 2.5rem;
   font-weight: 400;
 }
 
-.lower-e{
+.lower-e {
   margin-top: 5rem;
 }
-.lower-email{
+
+.lower-email {
   margin: 0%;
 }
 
 /* /////////  Footer section   //////// */
 
+footer {
+  margin-top: 5rem;
+}
 
+footer a {
+  color: white;
+  opacity: 0.8;
+  font-size: 1.4rem;
+}
+
+footer .footer-h a {
+  font-size: 1.6rem;
+}
+
+footer .footer-h {
+  margin-bottom: 3rem;
+}
+
+.footer-links li {
+  list-style-type: none;
+  margin: 1rem 0rem;
+}
+
+.drapdown {
+  width: 8rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  padding-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.dev-info {
+  background-color: #111;
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.dev-info p {
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.dev-info .developer {
+  font-size: 1.3rem;
+  opacity: 0.7;
+  line-height: 2rem;
+}
+
+.dev-info p span {
+  font-size: 1.5rem;
+}
 
 
 
