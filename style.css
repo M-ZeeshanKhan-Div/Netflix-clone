@@ -10,22 +10,14 @@ html {
   color: white;
 }
 
-input::placeholder {
-  color: white;
-}
-
-input {
-  caret-color: red;
-}
 
 
 /* landing page */
 
 .main-ctr {
-  min-width: 100vw;
+  width: 100%;
   background: linear-gradient(to left bottom, rgba(0, 0, 0, 0.223), rgba(0, 0, 0, 0.261), rgba(0, 0, 0, 0.725)),
     url("./images/netflix-background-gs7hjuwvv2g0e9fj.jpg") center/cover no-repeat;
-
 }
 
 /* header */
@@ -75,8 +67,8 @@ input {
 /* main content */
 
 .content {
-  min-width: 100vw;
-  margin-top: 10%;
+  min-width: 100%;
+  margin-top: 8%;
   align-content: center;
   text-align: center;
   padding: 0% 25%;
@@ -112,7 +104,7 @@ input {
   border: 0.2rem solid rgba(252, 251, 251, 0.364);
   background-color: rgba(0, 0, 0, 0.646);
   width: 69%;
-  height: 6rem;
+  height: 5rem;
   border-radius: 0.5rem;
   color: rgba(0, 0, 0, 0.777);
   font-size: 2rem;
@@ -120,9 +112,13 @@ input {
   padding-left: 1.5rem;
 }
 
+.input {
+  caret-color: red;
+}
+
 .email-ctr button {
   width: 30%;
-  height: 6rem;
+  height: 5rem;
   background-color: red;
   border: none;
   border-radius: 0.5rem;
@@ -135,16 +131,12 @@ input {
   background-color: rgb(150, 3, 3);
 }
 
-.color-s{
-  width: 100%;
-  min-height: 5rem;
-}
 
 /* ///////////   Movies Section  ///////////// */
 
 .lower-ctr {
   background-color: black;
-  width: 100vw;
+  width: 100%;
   padding: 4rem 5% 0rem 5%;
 }
 
@@ -162,6 +154,7 @@ input {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
+  scrollbar-width: none;
 }
 
 .card-m {
@@ -241,10 +234,14 @@ input {
 
 .lower-e {
   margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .lower-email {
   margin: 0%;
+  width: 100%;
 }
 
 /* /////////  Footer section   //////// */
@@ -255,7 +252,7 @@ footer {
 
 footer a {
   color: white;
-  opacity: 0.8;
+  opacity: 0.7;
   font-size: 1.4rem;
 }
 
@@ -279,6 +276,7 @@ footer .footer-h {
   color: white;
   padding-left: 0.5rem;
   font-size: 1.6rem;
+  margin-top: 2rem;
 }
 
 .dev-info {
@@ -317,33 +315,36 @@ footer .footer-h {
   }
 
   .header .logo {
-    min-width: 15%;
-    height: 20%;
+    min-width: 13%;
+    height: 18%;
   }
 
   .header .login {
-    width: 8%;
+    width: 10%;
     height: 5rem;
   }
 
   .content h1 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   .content p {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .content h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .email-ctr input {
-    height: 7rem;
+    height: 6rem;
   }
 
   .email-ctr button {
-    height: 7rem;
+    height: 6rem;
+  }
+  .content{
+    margin-top: 4%;
   }
 
 }
@@ -358,6 +359,12 @@ footer .footer-h {
   }
 
   .content h1 {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (min-width:1024px){
+    .content h1 {
     font-size: 4.5rem;
   }
 }
@@ -449,5 +456,66 @@ footer .footer-h {
 
   .header .login a {
     font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width:650px) {
+  .footer-links li {
+    width: 50%;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 20rem;
+  }
+
+    .lower-email{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .lower-email .input{
+      width: 50%;
+    }
+     .lower-email button{
+      width: 20%;
+     }
+  
+}
+
+@media screen and (min-width:768px) {
+  .lower-ctr {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .info-cards-ctr {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width:1300px) {
+  .info-cards-ctr {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .card-i {
+    min-height: 28rem;
+  }
+  html{
+    font-size: 80%;
+  }
+
+  .content{
+    margin-top: 5%;
   }
 }
