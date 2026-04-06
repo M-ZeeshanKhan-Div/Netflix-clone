@@ -10,6 +10,10 @@ html {
   color: white;
 }
 
+input {
+   color: red !important;
+}
+
 /*//////////////   landing page   /////////////*/
 
 .main-ctr {
