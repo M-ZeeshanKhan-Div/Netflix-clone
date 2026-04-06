@@ -10,9 +10,7 @@ html {
   color: white;
 }
 
-
-
-/* landing page */
+/*//////////////   landing page   /////////////*/
 
 .main-ctr {
   width: 100%;
@@ -29,7 +27,6 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 10rem;
-
 }
 
 .logo {
@@ -163,6 +160,10 @@ html {
   height: 100%;
   border-radius: 0.5rem;
 }
+
+.card-m:hover{
+  transform: scale(1.05);
+} 
 
 .card-m img {
   width: 100%;
@@ -305,8 +306,6 @@ footer .footer-h {
   font-size: 1.5rem;
 }
 
-
-
 /* ///////  Media Query for landing page  /////////*/
 
 @media screen and (min-width:1500px) {
@@ -343,7 +342,8 @@ footer .footer-h {
   .email-ctr button {
     height: 6rem;
   }
-  .content{
+
+  .content {
     margin-top: 4%;
   }
 
@@ -363,8 +363,8 @@ footer .footer-h {
   }
 }
 
-@media screen and (min-width:1024px){
-    .content h1 {
+@media screen and (min-width:1024px) {
+  .content h1 {
     font-size: 4.5rem;
   }
 }
@@ -471,19 +471,21 @@ footer .footer-h {
     max-height: 20rem;
   }
 
-    .lower-email{
-      display: flex;
-      text-align: center;
-      justify-content: center;
-      gap: 1rem;
-    }
-    .lower-email .input{
-      width: 50%;
-    }
-     .lower-email button{
-      width: 20%;
-     }
-  
+  .lower-email {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .lower-email .input {
+    width: 50%;
+  }
+
+  .lower-email button {
+    width: 20%;
+  }
+
 }
 
 @media screen and (min-width:768px) {
@@ -511,11 +513,12 @@ footer .footer-h {
   .card-i {
     min-height: 28rem;
   }
-  html{
+
+  html {
     font-size: 80%;
   }
 
-  .content{
+  .content {
     margin-top: 5%;
   }
 }
