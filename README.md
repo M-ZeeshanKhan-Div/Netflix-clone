@@ -19,7 +19,7 @@ A fully responsive Netflix landing page clone built using pure HTML and CSS.
 </p>
 
 ## 🚀 Live Demo
-https://yourusername.github.io/netflix-clone/
+https://mzk-flix-clone.netlify.app
 
 
 ## 📖 About The Project
