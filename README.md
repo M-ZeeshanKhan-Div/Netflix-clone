@@ -49,10 +49,13 @@ The layout adapts to different screen sizes including mobile, tablet, and deskto
 
 ## ⚙️ How to Run
 
-1. Download or clone the repository
-2. Open index.html in your browser
+1. Download or clone the repository:
+   git clone https://github.com/mzeeshankhan-dev/Netflix-clone.git
+2. Open the project folder:
+   cd weather-app
+3. Open index.html in your browser
 
 
 ## 👨‍💻 Author
 
-- [Muhammad Zeeshan Khan] (https://github.com/mzeeshankhan-dev)
+- [Github] (https://github.com/mzeeshankhan-dev)
